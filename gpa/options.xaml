@@ -1,0 +1,15 @@
+﻿<Page x:Class="gpa.options"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="484" d:DesignWidth="659"
+	Title="options" Background="#FF272222">
+
+    <Grid>
+        <Button Content="GPA" HorizontalAlignment="Left" Margin="180,148,0,0" VerticalAlignment="Top" Width="129" Height="50" Background="#FF686060" Foreground="Black" BorderBrush="Black" BorderThickness="3" FontFamily="Century Gothic" FontSize="24" Click="Button_Click"/>
+        <Button Content="CGPA" HorizontalAlignment="Left" Margin="180,224,0,0" VerticalAlignment="Top" Width="129" Height="47" Foreground="Black" Background="#FF686060" BorderBrush="Black" BorderThickness="3" FontFamily="Century Gothic" FontSize="24" Click="Button_Click_1"/>
+
+    </Grid>
+</Page>
